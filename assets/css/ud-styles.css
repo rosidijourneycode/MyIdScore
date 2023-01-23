@@ -1,15 +1,3 @@
-/* =======
-
-	Template Name: Play Bootstrap
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://github.com/uideck/
-	Version: 1.0
-
-======== */
-/*===========================
-  COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --font: "Inter", sans-serif;
@@ -874,7 +862,7 @@ p {
 
 /* ===== About CSS ===== */
 .ud-about {
-  background: #f3f4fe;
+  background: #fdfcfc;
   padding: 120px 0;
 }
 
@@ -961,6 +949,9 @@ p {
   .ud-about-image {
     text-align: center;
   }
+}
+.ud-about-image{
+  margin: auto;
 }
 /*======================================
     Process Area CSS
