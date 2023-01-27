@@ -412,6 +412,14 @@
                 menyediakan platform Analisis dan Perencanaan real-time yang
                 membantu tim beralih dari data ke keputusan — lebih cepat.
               </p>
+              <div class="toggle-btn">
+                <span style="margin: 0.8em;">Monthly</span>
+                <label class="switch">
+                  <input type="checkbox" id="checbox" onclick="check()" ; />
+                  <span class="slider round"></span>
+                </label>
+                <span style="margin: 0.8em;">Annually</span>
+              </div>
             </div>
           </div>
         </div>
@@ -425,7 +433,8 @@
             >
               <div class="ud-pricing-header">
                 <h3>STARTING FROM</h3>
-                <h4>$ 19.99/mo</h4>
+                <h4 class="monthPrice">$ 19.99</h4>
+                <h4 class="annualPrice">$ 29.99</h4>
               </div>
               <div class="ud-pricing-body">
                 <ul>
@@ -452,7 +461,8 @@
               <span class="ud-popular-tag">POPULAR</span>
               <div class="ud-pricing-header">
                 <h3>STARTING FROM</h3>
-                <h4>$ 30.99/mo</h4>
+                <h4 class="monthPrice">$ 30.99</h4>
+                <h4 class="annualPrice">$ 25.99</h4>
               </div>
               <div class="ud-pricing-body">
                 <ul>
@@ -478,7 +488,8 @@
             >
               <div class="ud-pricing-header">
                 <h3>STARTING FROM</h3>
-                <h4>$ 70.99/mo</h4>
+                <h4 class="monthPrice">$ 70.99</h4>
+                <h4 class="annualPrice">$ 65.99</h4>
               </div>
               <div class="ud-pricing-body">
                 <ul>
@@ -1233,8 +1244,24 @@
           }
         }
       }
-
       window.document.addEventListener("scroll", onScroll);
+
+      function check() {
+      var checkBox = document.getElementById("checbox");
+      var monthPrice = document.getElementsByClassName("monthPrice");
+      var annualPrice = document.getElementsByClassName("annualPrice");
+
+      for (var i = 0; i < monthPrice.length; i++) {
+        if (checkBox.checked == true) {
+          monthPrice[i].style.display = "block";
+          annualPrice[i].style.display = "none";
+        } else if (checkBox.checked == false) {
+          monthPrice[i].style.display = "none";
+          annualPrice[i].style.display = "block";
+        }
+      }
+    }
+    check();
     </script>
   </body>
 </html>
