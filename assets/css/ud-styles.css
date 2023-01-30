@@ -332,7 +332,7 @@ p {
 }
 
 .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
-  color:var(--white);
+  color:var(--primary-color);
   opacity: 0.5;
 }
 
