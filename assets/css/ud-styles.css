@@ -1978,6 +1978,46 @@ p {
 .ud-contact-form-wrapper .ud-form-group textarea:focus {
   border-color: var(--primary-color);
 }
+.map-section {
+  background-color: #F4F7FA;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .map-section {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .map-section {
+    padding-bottom: 60px;
+  }
+}
+
+.map-section .mapouter {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.map-section .mapouter iframe {
+  height: 500px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .map-section .mapouter iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .map-section .mapouter iframe {
+    height: 300px;
+  }
+}
+
 
 /* ===== Footer CSS ===== */
 .ud-footer {
