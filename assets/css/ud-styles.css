@@ -601,7 +601,7 @@ p {
   color: #fdfdfd;
   display: block;
   margin: 20px 0;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li {
@@ -1816,6 +1816,7 @@ p {
 .ud-contact {
   padding: 120px 0px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -1980,7 +1981,7 @@ p {
 }
 .map-section {
   background-color: #F4F7FA;
-  margin-top: 60px;
+  margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
