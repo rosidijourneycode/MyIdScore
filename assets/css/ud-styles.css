@@ -3050,6 +3050,103 @@ p {
 .ud-banner-ad img {
   width: 100%;
 }
+/*=========== Register Start ====== */
+.ud-register{
+  background: #ebebeb;
+  padding: 60px 0;
+
+}
+@media (max-width: 767px) {
+  .ud-about {
+    padding: 80px 0;
+  }
+}
+.ud-register-wrapper{
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ud-register-wrapper {
+    display: block;
+  }
+}
+
+.ud-register-content-wrapper {
+  padding: 70px;
+}
+
+@media (max-width: 767px) {
+  .ud-register-content-wrapper {
+    padding: 50px 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ud-register-content-wrapper {
+    padding: 50px;
+  }
+}
+
+.ud-register-content{
+  max-width: 1000px;
+
+}
+.ud-register-content h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .ud-register-content h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+.ud-register-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.ud-register-content a {
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DE1F4F;
+}
+.ud-register-content h5{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.ud-register-content-wrapper{
+  padding: 70px;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ud-register-image {
+    text-align: center;
+  }
+}
+.ud-register-image{
+  margin: auto;
+  padding-right: 70px;
+}
+/*=========== Register End ====== */
+
+
 
 /* ====== Error 404 CSS ======= */
 .ud-404 {
