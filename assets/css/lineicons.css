@@ -50,6 +50,8 @@ Author: lineicons.com
 -------------------------*/
 .lni-is-spinning {
   animation: lni-spin 1s infinite linear;
+  -webkit-animation: lni-spin 2s infinite linear;
+  -moz-animation: lni-spin 2s infinite linear;
 }
 @keyframes lni-spin {
   0% {
