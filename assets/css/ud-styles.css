@@ -505,14 +505,14 @@ p {
 /* ===== Hero CSS ===== */
 /* ===== Buttons Css ===== */
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn {
-  background: var(--primary);
+  background: var(--primary-color);
   color: var(--white);
   box-shadow: var(--shadow-2);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .active.primary-btn, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn:hover, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn:focus {
-  background: var(--primary-dark);
+  background: var(--primary-color);
   color: var(--white);
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--shadow-2);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .deactive.primary-btn {
   background: var(--gray-4);
@@ -638,7 +638,7 @@ p {
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline:hover {
   border-color: transparent;
   background-color: var(--white);
-  color: var(--primary-color);
+  color: var(--heading-color);
 }
 
 .ud-hero-buttons .ud-link-btn:hover {
@@ -1717,6 +1717,7 @@ p {
 .ud-brands .ud-brands-logo .ud-single-logo:hover img {
   -webkit-filter: none;
           filter: none;
+  cursor: pointer;
 }
 
 .ud-brands .ud-brands-logo .ud-single-logo img {
@@ -3519,11 +3520,11 @@ p {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  -webkit-transition: play-btn all 0.3s ease-out ;
+  -moz-transition: play-btn all 0.3s ease-out ;
+  -ms-transition: play-btn all 0.3s ease-out ;
+  -o-transition: play-btn all 0.3s ease-out ;
+  transition: play-btn all 0.3s ease-out ;
   padding-left: 3px;
 }
 @media (max-width: 767px) {
